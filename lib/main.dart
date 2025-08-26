@@ -17,70 +17,136 @@ class XylophoneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
             children: [
-              TextButton(
-                onPressed: () async {
-                  changenote(1);
-                },
-                child: Text(
-                  "Click me to play",
-                  style: TextStyle(backgroundColor: Colors.red),
+              Expanded(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: TextButton(
+                    onPressed: () async {
+                      changenote(1);
+                    },
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.red,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.zero,
+                      ),
+                    ),
+                    child: Text(""),
+                  ),
                 ),
               ),
-              TextButton(
-                onPressed: () async {
-                  changenote(2);
-                },
-                child: Text(
-                  "Click me to play",
-                  style: TextStyle(backgroundColor: Colors.blue),
+              Expanded(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: TextButton(
+                    onPressed: () async {
+                      changenote(2);
+                    },
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                      shape: RoundedRectangleBorder(
+                        // removes round edges
+                        borderRadius: BorderRadius.zero,
+                      ),
+                    ),
+                    child: Text(""),
+                  ),
                 ),
               ),
-              TextButton(
-                onPressed: () async {
-                  changenote(3);
-                },
-                child: Text(
-                  "Click me to play",
-                  style: TextStyle(backgroundColor: Colors.yellow),
+              Expanded(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: TextButton(
+                    onPressed: () async {
+                      changenote(3);
+                    },
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.yellow,
+                      shape: RoundedRectangleBorder(
+                        // removes round edges
+                        borderRadius: BorderRadius.zero,
+                      ),
+                    ),
+                    child: Text(""),
+                  ),
                 ),
               ),
-              TextButton(
-                onPressed: () async {
-                  changenote(4);
-                },
-                child: Text(
-                  "Click me to play",
-                  style: TextStyle(backgroundColor: Colors.green),
+              Expanded(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: TextButton(
+                    onPressed: () async {
+                      changenote(4);
+                    },
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.green,
+                      shape: RoundedRectangleBorder(
+                        // removes round edges
+                        borderRadius: BorderRadius.zero,
+                      ),
+                    ),
+                    child: Text(""),
+                  ),
                 ),
               ),
-              TextButton(
-                onPressed: () async {
-                  changenote(5);
-                },
-                child: Text(
-                  "Click me to play",
-                  style: TextStyle(backgroundColor: Colors.teal),
+              Expanded(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: TextButton(
+                    onPressed: () async {
+                      changenote(5);
+                    },
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.teal,
+                      shape: RoundedRectangleBorder(
+                        // removes round edges
+                        borderRadius: BorderRadius.zero,
+                      ),
+                    ),
+                    child: Text(""),
+                  ),
                 ),
               ),
-              TextButton(
-                onPressed: () async {
-                  changenote(6);
-                },
-                child: Text(
-                  "Click me to play",
-                  style: TextStyle(backgroundColor: Colors.orange),
+              Expanded(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: TextButton(
+                    onPressed: () async {
+                      changenote(6);
+                    },
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.orange,
+                      shape: RoundedRectangleBorder(
+                        // removes round edges
+                        borderRadius: BorderRadius.zero,
+                      ),
+                    ),
+                    child: Text(""),
+                  ),
                 ),
               ),
-              TextButton(
-                onPressed: () async {
-                  changenote(7);
-                },
-                child: Text(
-                  "Click me to play",
-                  style: TextStyle(backgroundColor: Colors.purple),
+              Expanded(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: SizedBox(
+                    width: double.infinity,
+                    child: TextButton(
+                      onPressed: () async {
+                        changenote(7);
+                      },
+                      style: TextButton.styleFrom(
+                        backgroundColor: Colors.purple,
+                        shape: RoundedRectangleBorder(
+                          // removes round edges
+                          borderRadius: BorderRadius.zero,
+                        ),
+                      ),
+                      child: Text(""),
+                    ),
+                  ),
                 ),
               ),
             ],
